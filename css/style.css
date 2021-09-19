@@ -237,8 +237,8 @@ button:hover {
 }
 
 .bg-schedule {
-  background: url(../images/background/schedule-bg.png) no-repeat;
-  background-size: cover;
+  /* background: url(../images/background/schedule-bg.png) no-repeat;
+  background-size: cover; */
 }
 
 .bg-service {
