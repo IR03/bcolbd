@@ -30,66 +30,117 @@
 
 
 <!--========================================
-=            Navigation Section            =
-=========================================-->
+     =            Navigation Section            =
+     =========================================-->
 
-<nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
-  <div class="container-fluid p-0">
-    <!-- logo -->
-    <a class="navbar-brand" href="index.html">
-      <img src="images/logo.png" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fa fa-bars"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link" href="" >Committee
-            <span>/</span>
+     <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0 nav-desktop">
+      <div class="container-fluid p-0">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown dropdown-slide">
+              <a class="nav-link" href="committee2021.html">Committee
+                <span>/</span>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="committee2021.html">2021</a>
+                <a class="dropdown-item" href="committee2020.html">2020</a>
+              </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="gallery.html">Gallery
+                <span>/</span>
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="rules.html">Rules<span>/</span></a>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="news.html">News
+                <span>/</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown dropdown-slide">
+              <a class="nav-link" href="contact.html">Contact</a>
+              <!-- Dropdown list -->
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="contact.html">Contact Us</a>
+                <!-- <a class="dropdown-item" href="FAQ.html">FAQ</a> -->
+              </div>
+            </li>
+          </ul>
+          <a href="https://ibcol2021.com/" class="ticket">
+            <img src="images/icon/ticket.png" alt="ticket">
+            <span>Register Now</span>
           </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="committee.html">2021</a>
-            <a class="dropdown-item" href="committee.html">2020</a>
-          </div>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="gallery.html">Gallery
-            <span>/</span>
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="rules.html">Rules<span>/</span></a>
-
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="news.html">News
-            <span>/</span>
-          </a>
-        </li>
-        <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link" href="" >Contact</a>
-          <!-- Dropdown list -->
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="contact.html">Contact</a>
-            <a class="dropdown-item" href="FAQ.html">FAQ</a>
-          </div>
-        </li>
-      </ul>
-      <a href="https://ibcol2021.com/" class="ticket">
-        <img src="images/icon/ticket.png" alt="ticket">
-        <span>Register Now</span>
+        </div>
+      </div>
+    </nav>
+  
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-mobile">
+      <!-- logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo">
       </a>
-    </div>
-  </div>
-</nav>
-
-
-<!--====  End of Navigation Section  ====-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Committee
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="committee2021.html">2021</a>
+              <a class="dropdown-item" href="committee2020.html">2020</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rules.html">Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="contact.html">Contact</a>
+              <!-- <a class="dropdown-item" href="FAQ.html">FAQ</a> -->
+            </div>
+          </li>
+          <a href="https://ibcol2021.com/" class="ticket2 text-center" >
+            <span>Register Now</span>
+          </a>
+        </ul>
+      </div>
+    </nav>
+  
+    <!--====  End of Navigation Section  ====-->
 <!--================================
 =            Page Title            =
 =================================-->
@@ -101,6 +152,10 @@
 				<div class="title">
 					<h3>BCOLBD 2021 OFFICIAL RULES FOR TEAMS</h3>
 				</div>
+        <ol class="breadcrumb p-0 m-0">
+				  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				  <li class="breadcrumb-item active">Rules</li>
+				</ol>
 			</div>
 		</div>
 	</div>
@@ -211,8 +266,10 @@
             <img src="images/logo.png" alt="logo" class="img-fluid">
           </div>
           <div>
-            <p class="mt-1 mb-4">Serving Enterprises and SMEs with Technological Partnership Since 2006. </p>
-            <p class="mb-4">8th floor, Plot#2, Amtoli, Bir Uttam AK Khandakar Rd Mohakhali Commercial Area, Dhaka-1212</p>
+            <p class="mt-1 mb-4">Serving Enterprises and SMEs with Technological Partnership Since 2006.
+            </p>
+            <p class="mb-4">8th floor, Plot#2, Amtoli, Bir Uttam AK Khandakar Rd Mohakhali Commercial
+              Area, Dhaka-1212</p>
           </div>
           <ul class="social-links-footer list-inline">
             <li class="list-inline-item">
@@ -249,17 +306,17 @@
       <div class="col-md-4  mb-2">
         <h4 class="text-white font-weight-bold mb-5">Get In Touch</h4>
         <p class="mt-5">
-          Tel: 02-9856728
+          Tel: +8801958677912
           <br>
-          Mob: +8801404055220 (Reception)
+          Mob: +8801958677912 (For Partnership)
           <br>
-          Mob: +8801674314359(Marketing & Sales)
+          Mob: +8801958677912 (For Registration)
           <br>
-          sales@brainstation-23.com
+          info@bcolbd.org
           <br>
-          career@brainstation-23.com (HR)
+          info@bcolbd.org (For Partnership)
           <br>
-          Mob: +8801404055227 (HR)
+          registration@bcolbd.org (For Registration)
         </p>
       </div>
     </div>
@@ -271,19 +328,21 @@
     <div class="row align-items-center">
       <div class="col-md-6 ">
         <div class="copyright-text">
-          <p class="text-left"><a href="#">Blockchain Olympiad Bangladesh</a> &#169; 2021 All Right Reserved</p>
+          <p class="text-left"><a href="#">Blockchain Olympiad Bangladesh</a> &#169; 2021 All Right
+            Reserved</p>
         </div>
       </div>
       <div class="col-md-5 d-flex justify-content-end">
         <div class="copyright-text">
-          <p class="text-left">Design & development by &#169; <a href="https://livetechltd.com/" target="_blank">  Livetech Solutions Ltd. </a></p>
+          <p class="text-left">Design & development by &#169; <a href="https://livetechltd.com/"
+              target="_blank"> Livetech Solutions Ltd. </a></p>
         </div>
       </div>
-      
+
       <div class="col-md-1 d-flex justify-content-center">
         <a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
       </div>
-      
+
     </div>
   </div>
 </footer>

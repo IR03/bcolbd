@@ -30,68 +30,118 @@
 <body class="body-wrapper">
 
 
-  <!--========================================
-=            Navigation Section            =
-=========================================-->
+<!--========================================
+     =            Navigation Section            =
+     =========================================-->
 
-  <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
-    <div class="container-fluid p-0">
+     <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0 nav-desktop">
+      <div class="container-fluid p-0">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown dropdown-slide">
+              <a class="nav-link" href="committee2021.html">Committee
+                <span>/</span>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="committee2021.html">2021</a>
+                <a class="dropdown-item" href="committee2020.html">2020</a>
+              </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="gallery.html">Gallery
+                <span>/</span>
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="rules.html">Rules<span>/</span></a>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="news.html">News
+                <span>/</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown dropdown-slide">
+              <a class="nav-link" href="contact.html">Contact</a>
+              <!-- Dropdown list -->
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="contact.html">Contact Us</a>
+                <!-- <a class="dropdown-item" href="FAQ.html">FAQ</a> -->
+              </div>
+            </li>
+          </ul>
+          <a href="https://ibcol2021.com/" class="ticket">
+            <img src="images/icon/ticket.png" alt="ticket">
+            <span>Register Now</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-mobile">
       <!-- logo -->
       <a class="navbar-brand" href="index.html">
         <img src="images/logo.png" alt="logo">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fa fa-bars"></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item dropdown dropdown-slide">
-            <a class="nav-link" href="" >Committee
-              <span>/</span>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Committee
             </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="committee.html">2021</a>
-              <a class="dropdown-item" href="committee.html">2020</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="committee2021.html">2021</a>
+              <a class="dropdown-item" href="committee2020.html">2020</a>
             </div>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="gallery.html">Gallery
-              <span>/</span>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="rules.html">Rules<span>/</span></a>
-
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="news.html">News
-              <span>/</span>
+          <li class="nav-item">
+            <a class="nav-link" href="rules.html">Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
             </a>
-          </li>
-          <li class="nav-item dropdown dropdown-slide">
-            <a class="nav-link" href="">Contact</a>
-            <!-- Dropdown list -->
-            <div class="dropdown-menu">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="contact.html">Contact</a>
-              <a class="dropdown-item" href="FAQ.html">FAQ</a>
+              <!-- <a class="dropdown-item" href="FAQ.html">FAQ</a> -->
             </div>
           </li>
+          <a href="https://ibcol2021.com/" class="ticket2 text-center" >
+            <span>Register Now</span>
+          </a>
         </ul>
-        <a href="https://ibcol2021.com/" class="ticket">
-          <img src="images/icon/ticket.png" alt="ticket">
-          <span>Register Now</span>
-        </a>
       </div>
-    </div>
-  </nav>
-
-
-  <!--====  End of Navigation Section  ====-->
-
+    </nav>
+  
+    <!--====  End of Navigation Section  ====-->
 
 
   <!--================================
@@ -105,10 +155,10 @@
           <div class="title">
             <h3>Our Gallery</h3>
           </div>
-          <!-- <ol class="breadcrumb p-0 m-0">
+          <ol class="breadcrumb p-0 m-0">
 				  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
 				  <li class="breadcrumb-item active">Our Gallery</li>
-				</ol> -->
+				</ol>
         </div>
       </div>
     </div>
@@ -128,109 +178,398 @@
         <div class="col-12">
           <div class="controls mt-5">
             <button type="button" class="control mixitup-control-active" data-filter="all">All</button>
-            <button type="button" class="control" data-filter=".conference">2021</button>
             <button type="button" class="control" data-filter=".meeting">2020</button>
+            <button type="button" class="control" data-filter=".conference">2021</button>
             <!-- <button type="button" class="control" data-filter=".events">Events</button>
 					<button type="button" class="control" data-filter=".party">Party</button>
 					<button type="button" class="control" data-filter=".concert">Concert</button> -->
           </div>
           <div class="gallery-wrapper less-gutter mb-5">
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.1.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.1.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.1.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Probaho, Best Prototype Award Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.1.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.2.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Rompecadenas, "Other (e-Health)" Theme Category Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.2.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.3.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Rocket, "e-Governance" Theme Category Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.3.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.4.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Hopefully Hypothetically Theoretically, "FinTech" Theme Category Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.4.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.5.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Kryptonite, "Supply Chain Provenance" Theme Category Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.5.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.6.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team DU Nimbus, "Identity/Privecy" Theme Category Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.6.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.7.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Brogrammers, "Document Authentication" Theme Category Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.7.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.8.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team TrioChain, Bronze Award Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.8.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.9.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Masala Dosa, Silver Award Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.9.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.10.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Team Kagojer Nouka, Professor Jamilur Reza Choudhury Championship Award Winner</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.10.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.11.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Congratulations to all the winners of Blockchain Olympiad Bangladesh 2021.</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.11.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix conference">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2021/2021.12.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">This is 2021 gallary</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2021/2021.12.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/2.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.1.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" href="images/gallery/2.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.1.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="gallery-item mix party events">
+            <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/1.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.2.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/1.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.2.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="gallery-item mix meeting party">
+            <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/3.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.3.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/3.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.3.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="gallery-item mix meeting concert">
+            <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/2.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.4.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/2.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.4.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="gallery-item mix concert party">
+            <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/1.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.5.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/1.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.5.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="gallery-item mix events conference">
+            <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/3.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.6.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/3.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.6.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="gallery-item mix party conference">
+            <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/2.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.7.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/2.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.7.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="gallery-item mix events conference">
+            <div class="gallery-item mix meeting">
               <div class="image-block">
                 <div class="image">
-                  <img src="images/gallery/1.jpg" alt="gallery-image" class="img-fluid">
+                  <img src="images/gallery/Gallery 2020/2020.8.jpg" alt="gallery-image" class="img-fluid">
                   <div class="primary-overlay">
-                    <p class="px-3 py-4">Celebrating Blockchain Olympiad Bangladesh
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
                       2020 & Launching International Blockchain 2021</p>
-                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/1.jpg"></a>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.8.jpg"></a>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.9.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.9.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.10.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.10.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.11.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.11.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.12.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.12.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.13.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.13.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.14.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.14.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.15.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.15.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.16.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.16.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.17.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.17.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.18.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.18.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.19.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.19.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item mix meeting">
+              <div class="image-block">
+                <div class="image">
+                  <img src="images/gallery/Gallery 2020/2020.20.jpg" alt="gallery-image" class="img-fluid">
+                  <div class="primary-overlay">
+                    <p class="px-3 py-4 text-white">Celebrating Blockchain Olympiad Bangladesh
+                      2020 & Launching International Blockchain 2021</p>
+                    <a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/Gallery 2020/2020.20.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -245,93 +584,95 @@
 =            Footer            =
 =============================-->
 
-  <footer class="footer-main">
-    <div class=" container">
-      <div class="row">
-        <div class="col-md-4 mb-2">
-          <div class="block ">
-            <div class="footer-logo">
-              <img src="images/logo.png" alt="logo" class="img-fluid">
-            </div>
-            <div>
-              <p class="mt-1 mb-4">Serving Enterprises and SMEs with Technological Partnership Since 2006. </p>
-              <p class="mb-4">8th floor, Plot#2, Amtoli, Bir Uttam AK Khandakar Rd Mohakhali Commercial Area, Dhaka-1212
-              </p>
-            </div>
-            <ul class="social-links-footer list-inline">
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
+<footer class="footer-main">
+  <div class=" container">
+    <div class="row">
+      <div class="col-md-4 mb-2">
+        <div class="block ">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="logo" class="img-fluid">
           </div>
-
-        </div>
-        <!-- <div class="col-md-1"></div> -->
-        <div class="col-md-4 textAlign mb-2">
-          <h4 class="text-white font-weight-bold mb-5">EXPLORE</h4>
-          <p class="mt-5">
-            <a href="">News</a>
-            <br>
-            <a href="">Sponsors</a>
-            <br>
-            <a href="">FAQ</a>
-            <br>
-            <a href="">News</a>
-            <br>
-            <a href="">News</a>
-            <br>
-            <a href="">News</a>
-          </p>
-        </div>
-        <!-- <div class="col-md-1"></div> -->
-        <div class="col-md-4  mb-2">
-          <h4 class="text-white font-weight-bold mb-5">Get In Touch</h4>
-          <p class="mt-5">
-            Tel: 02-9856728
-            <br>
-            Mob: +8801404055220 (Reception)
-            <br>
-            Mob: +8801674314359(Marketing & Sales)
-            <br>
-            sales@brainstation-23.com
-            <br>
-            career@brainstation-23.com (HR)
-            <br>
-            Mob: +8801404055227 (HR)
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- Subfooter -->
-  <footer class="subfooter ">
-    <div class=" container">
-      <div class="row align-items-center">
-        <div class="col-md-6 ">
-          <div class="copyright-text">
-            <p class="text-left"><a href="#">Blockchain Olympiad Bangladesh</a> &#169; 2021 All Right Reserved</p>
+          <div>
+            <p class="mt-1 mb-4">Serving Enterprises and SMEs with Technological Partnership Since 2006.
+            </p>
+            <p class="mb-4">8th floor, Plot#2, Amtoli, Bir Uttam AK Khandakar Rd Mohakhali Commercial
+              Area, Dhaka-1212</p>
           </div>
-        </div>
-        <div class="col-md-5 d-flex justify-content-end">
-          <div class="copyright-text">
-            <p class="text-left">Design & development by &#169; <a href="https://livetechltd.com/" target="_blank">
-                Livetech Solutions Ltd. </a></p>
-          </div>
-        </div>
-
-        <div class="col-md-1 d-flex justify-content-center">
-          <a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
+          <ul class="social-links-footer list-inline">
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
         </div>
 
       </div>
+      <!-- <div class="col-md-1"></div> -->
+      <div class="col-md-4 textAlign mb-2">
+        <h4 class="text-white font-weight-bold mb-5">EXPLORE</h4>
+        <p class="mt-5">
+          <a href="">Committee</a>
+          <br>
+          <a href="">Sponsors</a>
+          <br>
+          <a href="">FAQ</a>
+          <br>
+          <a href="">News</a>
+          <br>
+          <a href="">Gallery</a>
+          <br>
+          <a href="">Contact</a>
+        </p>
+      </div>
+      <!-- <div class="col-md-1"></div> -->
+      <div class="col-md-4  mb-2">
+        <h4 class="text-white font-weight-bold mb-5">Get In Touch</h4>
+        <p class="mt-5">
+          Tel: +8801958677912
+          <br>
+          Mob: +8801958677912 (For Partnership)
+          <br>
+          Mob: +8801958677912 (For Registration)
+          <br>
+          info@bcolbd.org
+          <br>
+          info@bcolbd.org (For Partnership)
+          <br>
+          registration@bcolbd.org (For Registration)
+        </p>
+      </div>
     </div>
-  </footer>
+  </div>
+</footer>
+<!-- Subfooter -->
+<footer class="subfooter ">
+  <div class=" container">
+    <div class="row align-items-center">
+      <div class="col-md-6 ">
+        <div class="copyright-text">
+          <p class="text-left"><a href="#">Blockchain Olympiad Bangladesh</a> &#169; 2021 All Right
+            Reserved</p>
+        </div>
+      </div>
+      <div class="col-md-5 d-flex justify-content-end">
+        <div class="copyright-text">
+          <p class="text-left">Design & development by &#169; <a href="https://livetechltd.com/"
+              target="_blank"> Livetech Solutions Ltd. </a></p>
+        </div>
+      </div>
+
+      <div class="col-md-1 d-flex justify-content-center">
+        <a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
+      </div>
+
+    </div>
+  </div>
+</footer>
 
 
   <!-- JAVASCRIPTS -->

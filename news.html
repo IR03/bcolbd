@@ -30,69 +30,118 @@
 <body class="body-wrapper">
 
 
-	<!--========================================
-=            Navigation Section            =
-=========================================-->
+<!--========================================
+     =            Navigation Section            =
+     =========================================-->
 
-<nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
-	<div class="container-fluid p-0">
+	 <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0 nav-desktop">
+		<div class="container-fluid p-0">
+			<!-- logo -->
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.png" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item dropdown dropdown-slide">
+						<a class="nav-link" href="committee2021.html">Committee
+							<span>/</span>
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="committee2021.html">2021</a>
+							<a class="dropdown-item" href="committee2020.html">2020</a>
+						</div>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="gallery.html">Gallery
+							<span>/</span>
+						</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="rules.html">Rules<span>/</span></a>
+
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="news.html">News
+							<span>/</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown dropdown-slide">
+						<a class="nav-link" href="contact.html">Contact</a>
+						<!-- Dropdown list -->
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="contact.html">Contact Us</a>
+							<!-- <a class="dropdown-item" href="FAQ.html">FAQ</a> -->
+						</div>
+					</li>
+				</ul>
+				<a href="https://ibcol2021.com/" class="ticket">
+					<img src="images/icon/ticket.png" alt="ticket">
+					<span>Register Now</span>
+				</a>
+			</div>
+		</div>
+	</nav>
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light nav-mobile">
 		<!-- logo -->
 		<a class="navbar-brand" href="index.html">
 			<img src="images/logo.png" alt="logo">
 		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="fa fa-bars"></span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav mx-auto">
-				<li class="nav-item dropdown dropdown-slide">
-					<a class="nav-link" href="" >Committee
-						<span>/</span>
-					</a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="committee.html">2021</a>
-						<a class="dropdown-item" href="committee.html">2020</a>
-					</div>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="gallery.html">Gallery
-						<span>/</span>
-					</a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="rules.html">Rules<span>/</span></a>
 
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Committee
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="committee2021.html">2021</a>
+						<a class="dropdown-item" href="committee2020.html">2020</a>
+					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
+					<a class="nav-link" href="gallery.html">Gallery</a>
 				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="news.html">News
-						<span>/</span>
+				<li class="nav-item">
+					<a class="nav-link" href="rules.html">Rules</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="sponsors.html">Sponsors</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="news.html">News</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Contact
 					</a>
-				</li>
-				<li class="nav-item dropdown dropdown-slide">
-					<a class="nav-link" href="" >Contact</a>
-					<!-- Dropdown list -->
-					<div class="dropdown-menu">
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="contact.html">Contact</a>
-						<a class="dropdown-item" href="FAQ.html">FAQ</a>
+						<!-- <a class="dropdown-item" href="FAQ.html">FAQ</a> -->
 					</div>
 				</li>
+				<a href="https://ibcol2021.com/" class="ticket2 text-center" >
+					<span>Register Now</span>
+				</a>
 			</ul>
-			<a href="https://ibcol2021.com/" class="ticket">
-				<img src="images/icon/ticket.png" alt="ticket">
-				<span>Register Now</span>
-			</a>
 		</div>
-	</div>
-</nav>
-
+	</nav>
 
 	<!--====  End of Navigation Section  ====-->
-
-
 
 	<!--================================
 =            Page Title            =
@@ -141,7 +190,7 @@
 									</div>
 									<div class="post-content">
 										<div class="post-title">
-											<h2><a href="https://www.youtube.com/embed/uOY1TaYLXZY"
+											<h2 class="post-content-h2"><a href="https://www.youtube.com/embed/uOY1TaYLXZY"
 													target="_blank">Message from State
 													Minister Zunaid Ahmed
 													Palak (ICT).</a></h2>
@@ -161,7 +210,7 @@
 									</div>
 									<div class="post-content">
 										<div class="post-title">
-											<h2><a href="https://www.youtube.com/embed/QebqnIwR8CM"
+											<h2 class="post-content-h2"><a href="https://www.youtube.com/embed/QebqnIwR8CM"
 													target="_blank">Message from Prof. Dr. Md. Kaykobad.</a></h2>
 										</div>
 									</div>
@@ -179,7 +228,7 @@
 									</div>
 									<div class="post-content">
 										<div class="post-title">
-											<h2><a href="https://www.youtube.com/embed/u1LGwXn80zI"
+											<h2 class="post-content-h2"><a href="https://www.youtube.com/embed/u1LGwXn80zI"
 													target="_blank">Message from Mr. Habibullah N Karim.</a></h2>
 										</div>
 									</div>
@@ -197,7 +246,7 @@
 									</div>
 									<div class="post-content">
 										<div class="post-title">
-											<h2><a href="https://www.youtube.com/embed/tqLRyG8JyMI"
+											<h2 class="post-content-h2"><a href="https://www.youtube.com/embed/tqLRyG8JyMI"
 													target="_blank">International Blockchain Olympiad. IBCOL
 													2021.</a></h2>
 										</div>
@@ -207,7 +256,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-7 col-md-10 mx-auto">
+				<div class="col-lg-7 col-md-10 mx-auto mt-5">
 					<div class="sidebar">
 						<div class="widget latest-post">
 							<h5 class="widget-header font-bold">IMPORTANT NEWS</h5>
@@ -261,10 +310,29 @@
 									<p href="#"><span class="fa fa-calendar"></span>04 Nov, 2019</p>
 								</div>
 							</div>
+							<!-- Post -->
+							<div class="media">
+								<img src="images/news/post-thumb-sm-five.jpg" class="img-fluid" alt="post-thumb">
+								<div class="media-body">
+									<h6><a href="https://ibcol2021.com/"
+											target="_blank">
+											IBCOL</a></h6>
+									<p href="#"><span class="fa fa-calendar"></span>04 Nov, 2019</p>
+								</div>
+							</div>
+							<!-- Post -->
+							<div class="media">
+								<img src="images/news/post-thumb-sm-five.jpg" class="img-fluid" alt="post-thumb">
+								<div class="media-body">
+									<h6><a href="https://www.hkbcs.org/index.html"
+											target="_blank">Hongkong Blockchain Society</a></h6>
+									<p href="#"><span class="fa fa-calendar"></span>04 Nov, 2019</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-5 col-md-10 mx-auto">
+				<div class="col-lg-5 col-md-10 mx-auto mt-5">
 					<div class="sidebar">
 						<!-- Latest post -->
 						<div class="widget latest-post">
@@ -272,28 +340,47 @@
 							<!-- Post -->
 							<div class="media">
 								<div class="media-body">
-									<h6><a href="">Lorem ipsum dolor sit amet consectetur.</a></h6>
+									<h6><a href="https://bcolbd.org/uploads/IBCO_Brochure_A4.pdf" target="_blank">IBCOL
+											Brochure 2021</a></h6>
 									<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2021</p>
 								</div>
 							</div>
 							<!-- Post -->
 							<div class="media">
 								<div class="media-body">
-									<h6><a href="">Lorem ipsum dolor sit amet consectetur.</a></h6>
+									<h6><a href="https://ibcol2021.com/">International Blockchain Olympiad 2021</a></h6>
 									<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2021</p>
 								</div>
 							</div>
 							<!-- Post -->
 							<div class="media">
 								<div class="media-body">
-									<h6><a href="">Lorem ipsum dolor sit amet consectetur.</a></h6>
+									<h6><a href="https://bcolbd.org/uploads/bcolbd-2021-rules-v1.pdf">Evaluation
+											Guidance For Blockchain Olympiad Bangladesh 2021</a></h6>
 									<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2021</p>
 								</div>
 							</div>
 							<!-- Post -->
 							<div class="media">
 								<div class="media-body">
-									<h6><a href="">Lorem ipsum dolor sit amet consectetur.</a></h6>
+									<h6><a href="https://bcolbd.org/2021/uploads/pdf/Message_for_participants.pdf">Message
+											for participants</a></h6>
+									<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2021</p>
+								</div>
+							</div>
+							<!-- Post -->
+							<div class="media">
+								<div class="media-body">
+									<h6><a
+											href="https://bcolbd.org/2021/uploads/pdf/Evaluation_Guidance_For_Blockchain_Olympiad_Bangladesh_2020.pdf">Blockchain
+											Olympiad Bangladesh 2020 Notice</a></h6>
+									<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2021</p>
+								</div>
+							</div>
+							<!-- Post -->
+							<div class="media">
+								<div class="media-body">
+									<h6><a href="">Registration Link</a></h6>
 									<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2021</p>
 								</div>
 							</div>
@@ -358,17 +445,17 @@
 				<div class="col-md-4  mb-2">
 					<h4 class="text-white font-weight-bold mb-5">Get In Touch</h4>
 					<p class="mt-5">
-						Tel: 02-9856728
+						Tel: +8801958677912
 						<br>
-						Mob: +8801404055220 (Reception)
+						Mob: +8801958677912 (For Partnership)
 						<br>
-						Mob: +8801674314359(Marketing & Sales)
+						Mob: +8801958677912 (For Registration)
 						<br>
-						sales@brainstation-23.com
+						info@bcolbd.org
 						<br>
-						career@brainstation-23.com (HR)
+						info@bcolbd.org (For Partnership)
 						<br>
-						Mob: +8801404055227 (HR)
+						registration@bcolbd.org (For Registration)
 					</p>
 				</div>
 			</div>
